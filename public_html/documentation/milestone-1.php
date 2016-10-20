@@ -5,6 +5,7 @@
 	<title>Stache House</title>
 	</head>
 	<body>
+
 <h1> Purpose, Audience, Goal</h1>
 		<ul>
 			<li>Purpose - to provide potential customers with a place where they can learn about the barbers, the location, schedule an appointmnet, and find directions.</li>
@@ -12,7 +13,7 @@
 			<li>Goal - To increase sales and clientelle of the the Stache House</li>
 		</ul>
 <h1>Persona</h1>
-		<img src="images/jesse-persona.jpg" alt="jesse-persona">
+		<img src="jesse-persona.jpg" alt="jesse-persona" width="30%">
 		<p>This is Jesse (right). Jesse Needs a haircut. He is a tech savvy 21 year old who just moved to Albuquerque. He has a big interview coming up and needs to look sharp for it. He wants to get a low fade witha taper for a reasonable price, from a trusted barber. On his iPhone6, with 4g LTE connection, he googles "Albuquerque Barber Shops" and finds at least 50 different options. He opens a few tabs and checks out scheduling opoprtunities, reviews, and photo galleries. He would like to book an appointment, know who his barber is, and find directions to the barber shop. It's tough being in a new city and finding a trustworthy barber. Getting it right the first time is incredibly important.</p>
 
 <h1>Use Case</h1>
