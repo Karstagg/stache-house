@@ -14,7 +14,8 @@
 		</ul>
 		</p>
 <h1>Persona</h1>
-		This is Jesse. Jesse Needs a haircut. He is in his early 20's and just moved to Albuquerque. He has a big interview coming up nad needs to look sharp for it. He wants to get a low fade witha taper for a reasonable price, from a trusted barber. On his iPhone6 he googles "Albuquerque Barber Shops" and finds at least 50 different options. He opens a few tabs and checks out scheduling opoprtunities, reviews, and photo galleries. He would like to book an appointment, know who his barber is, and find directions to the barber shop
+		<img src="" alt="jesse-persona">
+		This is Jesse (right). Jesse Needs a haircut. He is in his early 20's and just moved to Albuquerque. He has a big interview coming up nad needs to look sharp for it. He wants to get a low fade witha taper for a reasonable price, from a trusted barber. On his iPhone6 he googles "Albuquerque Barber Shops" and finds at least 50 different options. He opens a few tabs and checks out scheduling opoprtunities, reviews, and photo galleries. He would like to book an appointment, know who his barber is, and find directions to the barber shop.
 	</body>
 
 </html>
