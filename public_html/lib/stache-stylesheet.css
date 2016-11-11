@@ -12,7 +12,6 @@ hr{
 header {
 	position: relative;
 	width: auto;
-	min-height: auto;
 	text-align: center;
 	color: fuchsia;
 	background-image: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
@@ -27,4 +26,31 @@ header .header-text{
 	width: 100%;
 	padding: 100px 15px;
 	text-align: center;
+}
+
+.barber-image{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border: 5px;
+	border-color: black;
+	width: auto;
+	height: 100%;
+	align-items:center;
+}
+
+.btn-primary {
+	position: static;
+	width: auto;
+	margin-bottom: 20px;
+
+}
+
+figcaption {
+	alignment: center;
+}
+
+.barber-links{
+	align-content: center;
 }

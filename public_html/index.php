@@ -71,12 +71,39 @@
 		<header>
 			<div class="header-full">
 				<div class="header-text">
-			 		<h2>The Stache House</h2>
+			 		<h1>The Stache House</h1>
 					<hr>
 					<h3>Albuquerque's premier barber lounge</h3>
 				</div>
 				<button class="btn btn-primary btn-lg" type="submit">Schedule an appointment</button>
 			</div>
 		</header>
+
+
+<!--		Start meet our barber section-->
+
+		<section class="bg-primary" id="barbers">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 text-center">
+						<h1 class="section-heading">Meet Our Barbers!</h1>
+						<hr class="light">
+						<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of experience. Select your barber's picture to schedule your next appointment with them!</p>
+					</div>
+				</div>
+			</div>
+			<div class="container barber-links"
+						 <div class="barber-image col-lg-4 col-md-4 col-sm-1 col-xs-1 text-center col-lg-offset-2">
+
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+						 </div>
+		</section>
+
+
 	</body>
 	</html>
