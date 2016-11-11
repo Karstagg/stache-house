@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title> Milestone 2</title>
+	</head>
 		<body>
 		<h1>Content Strategy</h1>
 		<ul>
@@ -20,3 +21,4 @@
 		<img src="../media/stache-house-wireframe.png" alt="mobile-wireframe">
 		</section>
 	</body>
+	</html>
