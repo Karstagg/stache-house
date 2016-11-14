@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Stache House</title>
 
 		<!--		Inserting Bootstrap-->
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -83,7 +84,7 @@
 <!--		Start meet our barber section-->
 
 		<section class="bg-primary" id="barbers">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h1 class="section-heading">Meet Our Barbers!</h1>
@@ -92,18 +93,58 @@
 					</div>
 				</div>
 			</div>
-			<div class="container barber-links"
-						 <div class="barber-image col-lg-4 col-md-4 col-sm-1 col-xs-1 text-center col-lg-offset-2">
+			<div class="barber-links">
+				<div class="row">
+						 <div class="barber-image col-lg-8 col-md-6 col-sm-1 col-xs-1">
+
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+
+							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
 
 							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
 							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+
 							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
+
 							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
 						 </div>
+			</div>
+			</div>
 		</section>
 
+<!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
+		<header class="wide-image">
+			<div class="header-text">
+				<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+	<h4>Hello Jerry, come to rub my face in urine again? There's pros and cons to every alternate timeline. Fun facts about this one – It's got giant, telepathic spiders, 11 9/11s, and the best ice cream in the multiverse! You gotta shove these seeds way up your butt morty, waay up there. You can run, but you can't hide bitch!</h4>
+				</div>
+
+			</div>
+			</div>
+		</header>
+
+<!--<!--		Insert Google Maps API-->-->
+<!--<section class="google-map">-->
+<!--			<h3 class="map-header">My Google Maps Demo</h3>-->
+<!--			<div id="map"></div>-->
+<!--			<script>-->
+<!--				function initMap() {-->
+<!--					var stache = {lat: 35.0831104, lng: -106.6391007};-->
+<!--					var map = new google.maps.Map(document.getElementById('map'), {-->
+<!--						zoom: 18,-->
+<!--						center: stache-->
+<!--					});-->
+<!--					var marker = new google.maps.Marker({-->
+<!--						position: stache,-->
+<!--						map: map-->
+<!--					});-->
+<!--				}-->
+<!--			</script>-->
+<!--			<script async defer-->
+<!--					  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjRDd7yPjFosC6yIgcOubkdZnF9W29V1g&callback=initMap">-->
+<!--			</script>-->
+<!--</section>-->
 
 	</body>
 	</html>
