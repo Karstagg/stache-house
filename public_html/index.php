@@ -1,8 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
 	<head>
+
+<!--		Favicon-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+<!--		font aweseome-->
+		<script src="https://use.fontawesome.com/eb7e32d45e.js"></script>
+
 		<title>The Stache House</title>
 
 		<!--		Inserting Bootstrap-->
@@ -82,35 +106,78 @@
 
 
 <!--		Start meet our barber section-->
-
-		<section class="bg-primary" id="barbers">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h1 class="section-heading">Meet Our Barbers!</h1>
-						<hr class="light">
-						<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of experience. Select your barber's picture to schedule your next appointment with them!</p>
+<section class="barber-links container-fluid">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2 text-center">
+							<h2 class="section-heading">Meet Our Barbers!</h2>
+							<hr class="light">
+							<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of experience. Select your barber's picture to schedule your next appointment with them!</p>
+						</div>
 					</div>
 				</div>
+		<div class="col-sm-4 col-md-4 text-center">
+			<div class="thumbnail btn-link">
+				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<div class="caption">
+					<a href=http://www.facebook.com>
+					<h3>Barber #1</h3>
+					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram1</p>
+				</div>
 			</div>
-			<div class="barber-links">
-				<div class="row">
-						 <div class="barber-image col-lg-8 col-md-6 col-sm-1 col-xs-1">
-
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-
-							 <img src="http://loremflickr.com/320/240" alt="placeholder" class="barber-image" href="#"  />
-						 </div>
+		</div>
+		<div class="col-sm-4 col-md-4 text-center">
+			<div class="thumbnail btn-link">
+				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<div class="caption">
+					<a href=http://www.facebook.com>
+					<h3>Barber #2</h3>
+					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram2</p>
+				</div>
+		</div>
+	</div>
+		<div class="col-sm-4 col-md-4 text-center">
+			<div class="thumbnail btn-link">
+				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<div class="caption">
+					<a href=http://www.facebook.com>
+					<h3>Barber #3</h3>
+					<p><i class="fa fa-instagram" aria-hidden="true"></i>@instagram3</p>
+				</div>
+		</div>
+	</div>
+		<div class="col-sm-4 col-md-4 text-center">
+			<div class="thumbnail btn-link">
+				<img src="https://unsplash.it/200/300/?random" alt="..." >
+				<div class="caption">
+					<a href=http://www.facebook.com>
+						<a href=http://www.facebook.com>
+					<h3>Barber#4</h3>
+					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram4</p>
+				</div>
 			</div>
+		</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<div class="thumbnail btn-link">
+			<img src="https://unsplash.it/200/300/?random" alt="...">
+			<div class="caption">
+				<a href=http://www.facebook.com>
+				<h3>Barber #5</h3>
+				<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram5</p>
 			</div>
-		</section>
+		</div>
+	</div>
+	<div class="col-sm-4 col-md-4 text-center">
+		<div class="thumbnail btn-link">
+			<img src="https://unsplash.it/200/300/?random" alt="...">
+			<div class="caption">
+				<a href=http://www.facebook.com>
+					<h3>Barber #6</h3>
+				<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram6</p></a>
+			</div>
+		</div>
+	</div>
+</section>
 
 <!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
 		<header class="wide-image">
@@ -124,27 +191,16 @@
 			</div>
 		</header>
 
-<!--<!--		Insert Google Maps API-->-->
-<!--<section class="google-map">-->
-<!--			<h3 class="map-header">My Google Maps Demo</h3>-->
-<!--			<div id="map"></div>-->
-<!--			<script>-->
-<!--				function initMap() {-->
-<!--					var stache = {lat: 35.0831104, lng: -106.6391007};-->
-<!--					var map = new google.maps.Map(document.getElementById('map'), {-->
-<!--						zoom: 18,-->
-<!--						center: stache-->
-<!--					});-->
-<!--					var marker = new google.maps.Marker({-->
-<!--						position: stache,-->
-<!--						map: map-->
-<!--					});-->
-<!--				}-->
-<!--			</script>-->
-<!--			<script async defer-->
-<!--					  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjRDd7yPjFosC6yIgcOubkdZnF9W29V1g&callback=initMap">-->
-<!--			</script>-->
-<!--</section>-->
-
+<!--		Insert Google Maps API-->
+		<section class="map">
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="container-fluid text-center">
+					<div class="row">
+						<div class="map-header text-center"><h2>Location</h2></div>
+							<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=17&amp;size=300x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
+				</div>
+			</div>
+		</div>
+		</section>
 	</body>
 	</html>

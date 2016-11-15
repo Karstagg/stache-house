@@ -3,6 +3,10 @@ html, body {
 	height: 100%;
 }
 
+h1 {
+	font-size: 50px;
+}
+
 hr{
 	max-width: 50px;
 	border-color: aqua;
@@ -32,12 +36,8 @@ header .header-text{
 	padding: 15px 15px 15px 30px;
 	border: 5px;
 	border-color: black;
-	width: 20%;
-	height: auto;
-	alignment:center;
-	position: static;
 	align-items: center;
-	align-content: center;
+
 }
 
 .btn-primary {
@@ -49,9 +49,14 @@ header .header-text{
 
 .barber-links{
 	align-content: center;
-	width: 70%;
-	height: auto;
-	/*text-align: center;*/
+	width: auto;
+	background-color: black;
+	color: #D8D8D8;
+}
+
+.text-faded{
+	color: #D8D8D8;
+	opacity: 0.5;
 }
 
 .wide-image{
@@ -67,14 +72,20 @@ header .header-text{
 	-o-background-size: cover;
 }
 
+.thumbnail{
+	box-sizing: content-box;
+background-color: #D8D8D8;
+}
 
- /*#map {*/
-	 /*width: 40%;*/
-	 /*height: auto;*/
-	 /*background-color: grey;*/
-	 /*align-content: right;*/
- /*}*/
 
- /*.map-header{*/
-	 /*text-align: right;*/
- /*}*/
+
+ #map {
+	 width: 100%;
+	 height: auto;
+	 background-color: grey;
+	 align-content: right;
+ }
+
+ .map-header{
+	 text-align: center;
+ }
