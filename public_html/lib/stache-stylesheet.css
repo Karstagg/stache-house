@@ -14,7 +14,7 @@ hr{
 }
 
 header {
-	position: relative;
+	position: static;
 	width: auto;
 	text-align: center;
 	color: white;
@@ -34,8 +34,14 @@ header {
 	background-repeat: no-repeat;
 }
 
-header.header-text{
-	position: relative;
+.header-top{
+	/*position: fixed;*/
+	padding-top: 200px;
+	text-align: center;
+}
+
+.header-text{
+	position: static;
 	width: 100%;
 	padding: 100px 15px;
 	text-align: center;
@@ -54,7 +60,8 @@ header.header-text{
 	color: #D8D8D8;
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color:rgba(0, 0, 0, 60) !important;
+	background-color: black;
+	background-;
 }
 
 .text-faded{

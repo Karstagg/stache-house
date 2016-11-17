@@ -76,8 +76,8 @@
 
 <!--		Start Header-->
 		<header>
-			<div class="header-full">
-				<div class="header-text">
+			<div class=" container-fluid header-full text-center">
+				<div class="header-top text-center">
 			 		<h1>The Stache House</h1>
 					<hr>
 					<h3>Albuquerque's premier barber lounge</h3>
