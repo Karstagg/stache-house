@@ -35,8 +35,7 @@ header {
 }
 
 .header-top{
-	/*position: fixed;*/
-	padding-top: 200px;
+	padding-top: 150px;
 	text-align: center;
 }
 
@@ -61,7 +60,6 @@ header {
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: black;
-	background-;
 }
 
 .text-faded{
@@ -82,6 +80,7 @@ header {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
 
 .thumbnail{
 	box-sizing: content-box;
@@ -117,3 +116,8 @@ header {
 	padding-left: 10%;
 	padding-right: 10%;
 }
+
+/*.follow-links{*/
+/*width: auto;*/
+	/*height: 50px;*/
+/*}*/

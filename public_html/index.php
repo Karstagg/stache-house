@@ -74,6 +74,10 @@
 			<!-- /.container-fluid -->
 		</nav>
 
+<!--		Follow links -->
+		<div class="follow-links">
+		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580009aff67502f0"></script>
+		</div>
 <!--		Start Header-->
 		<header>
 			<div class=" container-fluid header-full text-center">
@@ -176,7 +180,7 @@
 	<div vlass="row">
 		<div class="col-sm-6">
 		<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
-		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=1024x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
+		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=500x2000&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
 		</div>
 	</div>
 </div>
