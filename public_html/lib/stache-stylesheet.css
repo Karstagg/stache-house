@@ -9,7 +9,7 @@ h1 {
 
 hr{
 	max-width: 50px;
-	border-color: aqua;
+	border-color: gold;
 	max-height: 3px;
 }
 
@@ -17,27 +17,28 @@ header {
 	position: relative;
 	width: auto;
 	text-align: center;
-	color: fuchsia;
+	color: white;
 	background-image: url(https://static.pexels.com/photos/4164/landscape-mountains-nature-mountain.jpeg);
-	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
+	/* The image used */
+
+	/* Set a specific height */
+	height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
 }
-header .header-text{
+
+header.header-text{
 	position: relative;
 	width: 100%;
 	padding: 100px 15px;
 	text-align: center;
-}
-
-.barber-image{
-	padding: 15px 15px 15px 30px;
-	border: 5px;
-	border-color: black;
-	align-items: center;
-
 }
 
 .btn-primary {
@@ -50,20 +51,23 @@ header .header-text{
 .barber-links{
 	align-content: center;
 	width: auto;
-	background-color: black;
 	color: #D8D8D8;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color:rgba(0, 0, 0, 60) !important;
 }
 
 .text-faded{
-	color: #D8D8D8;
-	opacity: 0.5;
+	color: white;
+	opacity: 0.666666;
+	font-size: 30px;
 }
 
 .wide-image{
 	position: relative;
 	width: auto;
 	text-align: center;
-	color: fuchsia;
+	color: #D8D8D8;
 	background-image: url("http://freebigpictures.com/wp-content/uploads/2009/09/forest-lake.jpg");
 	background-position: center;
 	-webkit-background-size: cover;
@@ -74,18 +78,35 @@ header .header-text{
 
 .thumbnail{
 	box-sizing: content-box;
-background-color: #D8D8D8;
+	background-color: #D8D8D8;
 }
 
-
-
- #map {
+.static-map{
 	 width: 100%;
 	 height: auto;
-	 background-color: grey;
-	 align-content: right;
+	 background-color: #D8D8D8 !important;
+	margin-bottom: 40px;
  }
 
  .map-header{
 	 text-align: center;
  }
+
+.page-scroll{
+	transition:
+			trani;
+}
+
+.filler-image{
+	float: left;
+	width: 50%;
+	height: auto;
+}
+.map{
+	align-content: center;
+	width: 40%;
+	background-color: black;
+	color: #D8D8D8;
+	padding-left: 10%;
+	padding-right: 10%;
+}

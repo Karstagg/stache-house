@@ -3,26 +3,8 @@
 
 	<head>
 
-<!--		Favicon-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
 
 <!--		font aweseome-->
 		<script src="https://use.fontawesome.com/eb7e32d45e.js"></script>
@@ -77,13 +59,13 @@
 							<a class="page-scroll" href="#about">About</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#services">Our Barbers</a>
+							<a class="page-scroll" href="#barbers">Our Barbers</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#portfolio">Follow Us</a>
+							<a class="page-scroll" href="#follow-us">Follow Us</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#contact">Contact us</a>
+							<a class="page-scroll" href="#contact-us">Contact us</a>
 						</li>
 					</ul>
 				</div>
@@ -107,7 +89,6 @@
 
 <!--		Start meet our barber section-->
 <section class="barber-links container-fluid">
-				<div class="container-fluid">
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2 text-center">
 							<h2 class="section-heading">Meet Our Barbers!</h2>
@@ -115,10 +96,9 @@
 							<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of experience. Select your barber's picture to schedule your next appointment with them!</p>
 						</div>
 					</div>
-				</div>
 		<div class="col-sm-4 col-md-4 text-center">
 			<div class="thumbnail btn-link">
-				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 				<div class="caption">
 					<a href=http://www.facebook.com>
 					<h3>Barber #1</h3>
@@ -128,7 +108,7 @@
 		</div>
 		<div class="col-sm-4 col-md-4 text-center">
 			<div class="thumbnail btn-link">
-				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 				<div class="caption">
 					<a href=http://www.facebook.com>
 					<h3>Barber #2</h3>
@@ -138,7 +118,7 @@
 	</div>
 		<div class="col-sm-4 col-md-4 text-center">
 			<div class="thumbnail btn-link">
-				<img src="https://unsplash.it/200/300/?random" alt="...">
+				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 				<div class="caption">
 					<a href=http://www.facebook.com>
 					<h3>Barber #3</h3>
@@ -148,7 +128,7 @@
 	</div>
 		<div class="col-sm-4 col-md-4 text-center">
 			<div class="thumbnail btn-link">
-				<img src="https://unsplash.it/200/300/?random" alt="..." >
+				<img src="../public_html/media/image-alignment-300x200.jpg" alt="..." >
 				<div class="caption">
 					<a href=http://www.facebook.com>
 						<a href=http://www.facebook.com>
@@ -159,7 +139,7 @@
 		</div>
 	<div class="col-sm-4 col-md-4 text-center">
 		<div class="thumbnail btn-link">
-			<img src="https://unsplash.it/200/300/?random" alt="...">
+			<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 			<div class="caption">
 				<a href=http://www.facebook.com>
 				<h3>Barber #5</h3>
@@ -169,7 +149,7 @@
 	</div>
 	<div class="col-sm-4 col-md-4 text-center">
 		<div class="thumbnail btn-link">
-			<img src="https://unsplash.it/200/300/?random" alt="...">
+			<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 			<div class="caption">
 				<a href=http://www.facebook.com>
 					<h3>Barber #6</h3>
@@ -180,27 +160,26 @@
 </section>
 
 <!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
-		<header class="wide-image">
+		<header class="wide-image" id="follow-us">
 			<div class="header-text">
 				<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-	<h4>Hello Jerry, come to rub my face in urine again? There's pros and cons to every alternate timeline. Fun facts about this one – It's got giant, telepathic spiders, 11 9/11s, and the best ice cream in the multiverse! You gotta shove these seeds way up your butt morty, waay up there. You can run, but you can't hide bitch!</h4>
+	<h4>Turn this skiff around! I shall hide behind the couch. (Guy's a pro.) I don't appreciate the dry British humor. The CIA should've just Googled for his hideout, evidently. Heyyyy Uncle Father Oscar. Hey, look at that – you're mean sober, too. No. I was ashamed to be _seen_ with you. I like being with you. Could it be love? I know what an erection feels like, Michael. No, it's the opposite. It's like my heart is getting hard.</h4>
 				</div>
 
 			</div>
 			</div>
 		</header>
 
-<!--		Insert Google Maps API-->
-		<section class="map">
-			<div class="col-lg-8 col-lg-offset-2">
-				<div class="container-fluid text-center">
-					<div class="row">
-						<div class="map-header text-center"><h2>Location</h2></div>
-							<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=17&amp;size=300x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
-				</div>
-			</div>
+<!--		Insert Google Maps API/Contact Form-->
+<div class="container-fluid">
+	<div vlass="row">
+		<div class="col-sm-6">
+		<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
+		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=1024x300&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
 		</div>
-		</section>
+	</div>
+</div>
 	</body>
 	</html>
+
