@@ -22,7 +22,7 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -36,6 +36,7 @@
 		<!-- add CSS file -->
 		<link href="../public_html/lib/stache-stylesheet.css" rel="stylesheet" type="text/css"/>
 
+		<script src="lib/scroll.js" type="application/javascript" rel="script"></script>
 	</head>
 
 	<body>
@@ -74,13 +75,9 @@
 			<!-- /.container-fluid -->
 		</nav>
 
-<!--		Follow links -->
-		<div class="follow-links">
-		<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580009aff67502f0"></script>
-		</div>
 <!--		Start Header-->
 		<header>
-			<div class=" container-fluid header-full text-center">
+			<div class=" container-fluid header-full text-center" id="about">
 				<div class="header-top text-center">
 			 		<h1>The Stache House</h1>
 					<hr>
@@ -92,7 +89,7 @@
 
 
 <!--		Start meet our barber section-->
-<section class="barber-links container-fluid">
+<section class="barber-links container-fluid" id="barbers">
 					<div class="row">
 						<div class="col-lg-8 col-lg-offset-2 text-center">
 							<h2 class="section-heading">Meet Our Barbers!</h2>
@@ -177,13 +174,25 @@
 
 <!--		Insert Google Maps API/Contact Form-->
 <div class="container-fluid">
-	<div vlass="row">
+	<div class="row">
 		<div class="col-sm-6">
 		<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
 		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=500x2000&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
 		</div>
 	</div>
 </div>
+
+
+<!--		Create footer with follow me links-->
+		<nav class="navbar navbar-dark bg-inverse navbar-fixed-bottom">
+			<div class="container-fluid col-lg-1 col-lg-offset-11">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a href="https://www.facebook.com/thestachehousebarberlounge/">  <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/explore/locations/1027150743/the-stache-house-barber-lounge/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
 	</body>
 	</html>
 

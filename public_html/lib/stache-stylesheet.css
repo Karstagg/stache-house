@@ -117,7 +117,10 @@ header {
 	padding-right: 10%;
 }
 
-/*.follow-links{*/
-/*width: auto;*/
-	/*height: 50px;*/
-/*}*/
+.follow-links{
+	width: 50%;
+}
+
+.navbar-fixed-bottom{
+	font-size: 60px;
+}
