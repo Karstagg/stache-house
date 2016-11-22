@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--		font aweseome-->
+		<!--		font aweseome-->
 		<script src="https://use.fontawesome.com/eb7e32d45e.js"></script>
 
 		<title>The Stache House</title>
@@ -22,16 +22,22 @@
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				  crossorigin="anonymous"></script>
 
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+				  crossorigin="anonymous"></script>
 
 		<!-- add CSS file -->
 		<link href="../public_html/lib/stache-stylesheet.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +50,8 @@
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							  data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -75,11 +82,11 @@
 			<!-- /.container-fluid -->
 		</nav>
 
-<!--		Start Header-->
+		<!--		Start Header-->
 		<header>
 			<div class=" container-fluid header-full text-center" id="about">
 				<div class="header-top text-center">
-			 		<h1>The Stache House</h1>
+					<h1>The Stache House</h1>
 					<hr>
 					<h3>Albuquerque's premier barber lounge</h3>
 				</div>
@@ -88,111 +95,215 @@
 		</header>
 
 
-<!--		Start meet our barber section-->
-<section class="barber-links container-fluid" id="barbers">
-					<div class="row">
-						<div class="col-lg-8 col-lg-offset-2 text-center">
-							<h2 class="section-heading">Meet Our Barbers!</h2>
-							<hr class="light">
-							<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of experience. Select your barber's picture to schedule your next appointment with them!</p>
-						</div>
+		<!--		Start meet our barber section-->
+		<section class="barber-links container-fluid" id="barbers">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 text-center">
+					<h2 class="section-heading">Meet Our Barbers!</h2>
+					<hr class="light">
+					<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of
+						experience. Select your barber's picture to schedule your next appointment with them!</p>
+				</div>
+			</div>
+			<div>
+				<div class="col-sm-4 col-md-4 text-center">
+					<div class="thumbnail btn-link">
+						<a href=https://www.genbook.com/bookings/slot/reservation/30247019><img
+								src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+							<div class="caption">
+								<h3>Barber Bam</h3>
+						</a>
+						<a href="https://www.instagram.com/great_bam_bino/"><p><i class="fa fa-instagram"
+																									 aria-hidden="true"></i>@great_bam_bino</p>
+						</a>
 					</div>
-		<div class="col-sm-4 col-md-4 text-center">
-			<div class="thumbnail btn-link">
-				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-				<div class="caption">
-					<a href=http://www.facebook.com>
-					<h3>Barber #1</h3>
-					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram1</p>
 				</div>
 			</div>
-		</div>
-		<div class="col-sm-4 col-md-4 text-center">
-			<div class="thumbnail btn-link">
-				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-				<div class="caption">
-					<a href=http://www.facebook.com>
-					<h3>Barber #2</h3>
-					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram2</p>
-				</div>
-		</div>
-	</div>
-		<div class="col-sm-4 col-md-4 text-center">
-			<div class="thumbnail btn-link">
-				<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-				<div class="caption">
-					<a href=http://www.facebook.com>
-					<h3>Barber #3</h3>
-					<p><i class="fa fa-instagram" aria-hidden="true"></i>@instagram3</p>
-				</div>
-		</div>
-	</div>
-		<div class="col-sm-4 col-md-4 text-center">
-			<div class="thumbnail btn-link">
-				<img src="../public_html/media/image-alignment-300x200.jpg" alt="..." >
-				<div class="caption">
-					<a href=http://www.facebook.com>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<div class="caption">
 						<a href=http://www.facebook.com>
-					<h3>Barber#4</h3>
-					<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram4</p>
+							<h3>Barber #2</h3>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram2</p>
+					</div>
 				</div>
 			</div>
-		</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<div class="thumbnail btn-link">
-			<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-			<div class="caption">
-				<a href=http://www.facebook.com>
-				<h3>Barber #5</h3>
-				<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram5</p>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<div class="caption">
+						<a href=http://www.facebook.com>
+							<h3>Barber #3</h3>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@instagram3</p>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div class="col-sm-4 col-md-4 text-center">
-		<div class="thumbnail btn-link">
-			<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-			<div class="caption">
-				<a href=http://www.facebook.com>
-					<h3>Barber #6</h3>
-				<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram6</p></a>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<div class="caption">
+						<a href=http://www.facebook.com>
+							<a href=http://www.facebook.com>
+								<h3>Barber#4</h3>
+								<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram4</p>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-</section>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<div class="caption">
+						<a href=http://www.facebook.com>
+							<h3>Barber #5</h3>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram5</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<div class="caption">
+						<a href=http://www.facebook.com>
+							<h3>Barber #6</h3>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram6</p></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
+		<!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
 		<header class="wide-image" id="follow-us">
 			<div class="header-text">
-				<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-	<h4>Turn this skiff around! I shall hide behind the couch. (Guy's a pro.) I don't appreciate the dry British humor. The CIA should've just Googled for his hideout, evidently. Heyyyy Uncle Father Oscar. Hey, look at that – you're mean sober, too. No. I was ashamed to be _seen_ with you. I like being with you. Could it be love? I know what an erection feels like, Michael. No, it's the opposite. It's like my heart is getting hard.</h4>
-				</div>
-
-			</div>
-			</div>
+					<div class="row">
+						<!-- imageagram.com -->
+						<div class="gallery">
+							<script src="//imageagram.com/js/imageagram.js"></script>
+							<iframe id="instimg-iframe"
+									  src="//imageagram.com/grid.php?q=u&search=jonnyguzman&wt=in&s=125&h=8&w=2&b=no&c=&p=5&ho=none&sh=yes&ww=450&as=on&at=13891229.69c1145.3ff36c4ab8704504a94e486d40b5c8f4"
+									  allowTransparency="true" frameborder="0" scrolling="no"
+									  style="border:none; overflow:hidden; width:1046px"></iframe>
+						</div>
+					</div>
 		</header>
 
-<!--		Insert Google Maps API/Contact Form-->
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-6">
-		<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
-		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=500x2000&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">
+		<!--		Insert Google Maps API/Contact Form-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
+					<div id="map"></div>
+					<script>
+						function initMap() {
+							var stacheHouse = {lat: 35.0831104, lng: -106.6391007};
+							var map = new google.maps.Map(document.getElementById('map'), {
+								zoom: 15,
+								center: stacheHouse,
+								disableDefaultUI: true,
+								zoomControl: false,
+								scaleControl: false,
+								scrollwheel: false
+							});
+							var marker = new google.maps.Marker({
+								position: stacheHouse,
+								map: map
+							});
+						}
+					</script>
+					<script async defer
+							  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjRDd7yPjFosC6yIgcOubkdZnF9W29V1g&callback=initMap">
+					</script>
+					<!--		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=500x2000&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">-->
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
+
+		<!--		<instagram slidehsow>-->
+		<div class="container-fluid col-lg-8 col-lg-offset-2">
+
+			<!-- www.intagme.com -->
 
 
-<!--		Create footer with follow me links-->
+			<!--			<input form>-->
+			<form id="contact-us" class="form-horizontal well" action="php/sendemail.php" method="post"
+					novalidate="novalidate">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="glyphicon glyphicon-user" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+						</div>
+						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="subject">Subject</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="glyphicon glyphicon-modal-window" aria-hidden="true"></i>
+						</div>
+						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Message</label>
+					<div class="input-group">
+						<div class="input-group-addon">
+							<i class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></i>
+						</div>
+						<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
+					</div>
+				</div>
+
+
+				<!-- CAPTCHA -->
+				<div class="captcha-container text-center">
+					<img id="captcha" src="securimage/securimage_show.php" alt="Captcha Image" title="Captcha image">
+					<div>
+						<button id="captcha-reload-button" class="btn btn-info" onclick="loadNewCaptcha(); return false;"
+								  title="Load a different captcha"><i class="glyphicon glyphicon-refresh"></i></button>
+						<input type="text" name="captcha_code" title="Please enter the captcha text, here" size="10"
+								 maxlength="6">
+					</div>
+				</div>
+		</div>
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
+		</div>
+
+		<div class="submit-and-reset-buttons text-center">
+			<button class="btn btn-warning" type="reset" title="Clear all fields in form"><i
+					class="glyphicon glyphicon-trash"></i> Reset
+			</button>
+			<button class="btn btn-success" type="submit" title="Send email"><i class="glyphicon glyphicon-send"></i> Send
+			</button>
+		</div>
+
+		<!--		Create footer with follow me links-->
 		<nav class="navbar navbar-dark bg-inverse navbar-fixed-bottom">
-			<div class="container-fluid col-lg-1 col-lg-offset-11">
+			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
-					<a href="https://www.facebook.com/thestachehousebarberlounge/">  <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-					<a href="https://www.instagram.com/explore/locations/1027150743/the-stache-house-barber-lounge/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://www.facebook.com/thestachehousebarberlounge/"> <i class="fa fa-facebook-official"
+																											 aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/explore/locations/1027150743/the-stache-house-barber-lounge/"><i
+							class="fa fa-instagram" aria-hidden="true"></i></a>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 	</body>
-	</html>
+</html>
 
