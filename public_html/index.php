@@ -214,7 +214,6 @@
 					<script async defer
 							  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjRDd7yPjFosC6yIgcOubkdZnF9W29V1g&callback=initMap">
 					</script>
-					<!--		<img class="static-map" border="0" src="//maps.googleapis.com/maps/api/staticmap?center=35.0831104,-106.6391007&amp;zoom=15&amp;size=500x2000&amp;maptype=roadmap&amp;markers=color:blue%7Clabel:S%7C35.0831104,-106.6391007">-->
 				</div>
 			</div>
 		</div>
