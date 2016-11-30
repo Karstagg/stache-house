@@ -96,20 +96,7 @@
 
 
 		<!--		Start meet our barber section-->
-		<!--		Add tilt hover effect-->
-		<script
-			src="./image-hover/TiltHoverEffects-master/js/main.js"></script>
-		<script
-			src="./image-hover/TiltHoverEffects-master/js/anime.min.js"></script>
-		<script
-			src="./image-hover/TiltHoverEffects-master/js/imagesloaded.pkgd.min.js"></script>
 
-		<link
-			href="./image-hover/TiltHoverEffects-master/css/component.css"
-			type="text/css"/>
-		<link
-			href="./image-hover/TiltHoverEffects-master/css/normalize.css"/>
-		<link href="./image-hover/TiltHoverEffects-master/css/pater.css"/>
 		<!--		Start section content-->
 		<section class="barber-links container-fluid" id="barbers">
 			<div class="row">
@@ -135,7 +122,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
-				<div class="thumbnail btn-link">
+					<div class="thumbnail btn-link">
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
 						<a href=http://www.facebook.com>
