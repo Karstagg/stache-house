@@ -33,8 +33,6 @@
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
-		<!-- Your JavaScript Form Validator -->
-		<script src="js/form-validate.js"></script>
 
 		<!--		custom jQuery validator-->
 		<script src="js/jquery-validate.js" type="application/javascript"></script>
@@ -42,8 +40,6 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<!--		Google recaptcha-->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"

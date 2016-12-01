@@ -61,6 +61,5 @@ $(document).ready(function(){
 		}
 
 	});/* end validate function */
-/**
- * Created by Jonathan on 12/1/16.
- */
+
+});/*end document.ready()*/
