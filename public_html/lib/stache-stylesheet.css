@@ -134,4 +134,18 @@ header {
 .navbar-fixed-bottom{
 	font-size: 60px;
 	align-content: flex-end;
+	background-color: gray;
+	opacity: .5;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.contact-us{
+	padding-bottom: 10px;
+	margin-bottom: 90px;
+}
+
+.g-recaptcha{
+
 }
