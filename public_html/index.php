@@ -21,6 +21,24 @@
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<!--		Google recaptcha-->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
@@ -122,7 +140,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
-					<div class="thumbnail btn-link">
+				<div class="thumbnail btn-link">
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
 						<a href=http://www.facebook.com>
@@ -268,16 +286,7 @@
 
 
 				<!-- CAPTCHA -->
-				<div class="captcha-container text-center">
-					<img id="captcha" src="securimage/securimage_show.php" alt="Captcha Image" title="Captcha image">
-					<div>
-						<button id="captcha-reload-button" class="btn btn-info" onclick="loadNewCaptcha(); return false;"
-								  title="Load a different captcha"><i class="glyphicon glyphicon-refresh"></i></button>
-						<input type="text" name="captcha_code" title="Please enter the captcha text, here" size="10"
-								 maxlength="6">
-					</div>
-				</div>
-		</div>
+				<div class="g-recaptcha" data-sitekey="6Lfhlg0UAAAAADFew4gxunMh_GySoa2oxUEzWju7"></div>
 		<!--empty area for form error/success output-->
 		<div class="row">
 			<div class="col-xs-12">
