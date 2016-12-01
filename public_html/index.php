@@ -33,6 +33,9 @@
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
 
+<!--		custom jQuery validator-->
+		<script src="js/jquery-validate.js" type="application/javascript"></script>
+
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
