@@ -129,7 +129,9 @@
 					<hr class="light">
 					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's
 						picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm
-						Tuesday-Saturday. Walk-ins also available with Z-Ro</p>
+						Tuesday-Saturday. Walk-ins also available with Z-Ro  <a href="https://www.instagram.com/thereal_high_fi/"><i class="fa fa-instagram"
+																																										 aria-hidden="true"></i>@thereal_high_fi
+					</a></p>
 				</div>
 			</div>
 			<div>
