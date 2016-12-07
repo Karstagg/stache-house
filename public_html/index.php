@@ -134,7 +134,7 @@
 				<div class="col-sm-4 col-md-4 text-center">
 					<div class="thumbnail btn-link">
 						<a href=https://www.genbook.com/bookings/slot/reservation/30247019><img
-								src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+								src="../public_html/media/prof/bam-prof.jpg" alt="...">
 							<div class="caption">
 								<h3>Bam</h3>
 						</a>
@@ -147,7 +147,7 @@
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.yb-cuts.genbook.com>
-						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<img src="media/yb/YBB11.JPG" alt="...">
 						<div class="caption">
 							<h3>YB Cuts</h3>
 					</a>
@@ -159,7 +159,7 @@
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.thatdirtybarber47.genbook.com>
-						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<img src="media/stev/StevC1.JPG" alt="...">
 						<div class="caption">
 							<h3>Stev</h3>
 							<a href=https://www.instagram.com/thatdirtybarber/>
@@ -170,7 +170,7 @@
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.mj-at-stache.genbook.com>
-						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<img src="media/prof/jesus-prof.jpg" alt="...">
 						<div class="caption">
 							<h3>Jesus</h3>
 							<a href=http://www.mj-at-stache.genbook.com>
@@ -181,7 +181,7 @@
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.barbermillz.genbook.com>
-						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<img src="media/prof/millz-prof.jpg" alt="...">
 						<div class="caption">
 							<h3>Millz</h3>
 							<a href=https://www.instagram.com/millzzz_12/>
@@ -191,7 +191,7 @@
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
-					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+					<img src="media/prof/gotti-prof.jpg" alt="...">
 					<div class="caption">
 						<h3>Erv Gotti</h3>
 						<a href=https://www.instagram.com/brad_barber_erv/>
