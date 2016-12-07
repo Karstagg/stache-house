@@ -195,25 +195,23 @@
 		</section>
 
 		<!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
-		<header class="wide-image" id="follow-us">
-			<div class="header-text">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="row">
-						<!-- imageagram.com -->
-						<div class="gallery">
-							<script src="//imageagram.com/js/imageagram.js"></script>
-							<iframe id="instimg-iframe"
-									  src="//imageagram.com/grid.php?q=u&search=jonnyguzman&wt=in&s=125&h=8&w=2&b=no&c=&p=5&ho=none&sh=yes&ww=450&as=on&at=13891229.69c1145.3ff36c4ab8704504a94e486d40b5c8f4"
-									  allowTransparency="true" frameborder="0" scrolling="no"
-									  style="border:none; overflow:hidden; width:1046px"></iframe>
+		<!--Attempt at youtube cover insert-->
+
+				<!--		Wide Image cover--->
+				<header class="wide-image" id="follow-us">
+					<div class="header-text">
+						<div class="col-lg-8 col-lg-offset-2">
+							<div class="row">
+							</div>
 						</div>
 					</div>
-		</header>
+
+				</header>
 
 		<!--		Insert Google Maps API/Contact Form-->
-		<div class="container-fluid">
+		<div class="container-fluid contact-section" id="contact-us">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-lg-6">
 					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
 					<div id="map"></div>
 					<script>
@@ -237,72 +235,67 @@
 							  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjRDd7yPjFosC6yIgcOubkdZnF9W29V1g&callback=initMap">
 					</script>
 				</div>
-			</div>
-		</div>
+				<!--			<input form>-->
 
-
-		<!-- www.intagme.com -->
-
-
-		<!--			<input form>-->
-
-		<!--Begin Contact Form-->
-		<div class="container-fluid col-lg-6 col-lg-offset-3 text-center contact-us">
-			<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
-				<div class="form-group">
-					<label for="name">Name<span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-user" aria-hidden="true"></i>
+				<!--Begin Contact Form-->
+				<div class="col-lg-6 text-center contact-us">
+					<h3>Contact Us!</h3>
+					<form id="contact-form" action="php/mailer.php" method="POST" novalidate>
+						<div class="form-group">
+							<label for="name">Name<span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
 						</div>
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="email">Email <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
 						</div>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-pencil" aria-hidden="true"></i>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							</div>
 						</div>
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="message">Message <span class="text-danger">*</span></label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i class="fa fa-comment" aria-hidden="true"></i>
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
+							</div>
 						</div>
-						<textarea class="form-control" rows="5" id="message" name="message"
-									 placeholder="Message (2000 characters max)"></textarea>
-					</div>
-				</div>
 
-				<!-- reCAPTCHA -->
-				<div class="text-center">
-					<div class="g-recaptcha" data-sitekey="6Lfhlg0UAAAAADFew4gxunMh_GySoa2oxUEzWju7"></div>
-				</div>
-				<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-				<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-			</form>
+						<!-- reCAPTCHA -->
+						<div class="text-center">
+							<div class="g-recaptcha" data-sitekey="6Lfhlg0UAAAAADFew4gxunMh_GySoa2oxUEzWju7"></div>
+						</div>
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
 
-			<!--empty area for form error/success output-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div id="output-area"></div>
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-
 
 		<!--		Create footer with follow me links-->
 		<nav class="navbar navbar-dark bg-inverse navbar-fixed-bottom">

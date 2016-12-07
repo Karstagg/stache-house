@@ -7,7 +7,7 @@ h1 {
 	font-size: 50px;
 }
 
-hr{
+hr {
 	max-width: 50px;
 	border-color: gold;
 	max-height: 3px;
@@ -34,12 +34,12 @@ header {
 	background-repeat: no-repeat;
 }
 
-.header-top{
+.header-top {
 	padding-top: 150px;
 	text-align: center;
 }
 
-.header-text{
+.header-text {
 	position: static;
 	width: 100%;
 	padding: 100px 15px;
@@ -53,7 +53,7 @@ header {
 
 }
 
-.barber-links{
+.barber-links {
 	align-content: center;
 	width: auto;
 	color: #D8D8D8;
@@ -62,13 +62,13 @@ header {
 	background-color: black;
 }
 
-.text-faded{
+.text-faded {
 	color: white;
 	opacity: 0.666666;
 	font-size: 30px;
 }
 
-.wide-image{
+.wide-image {
 	position: relative;
 	width: auto;
 	text-align: center;
@@ -81,34 +81,33 @@ header {
 	-o-background-size: cover;
 }
 
-
-.thumbnail{
+.thumbnail {
 	box-sizing: content-box;
 	background-color: #D8D8D8;
 }
 
-.static-map{
-	 width: 100%;
-	 height: auto;
-	 background-color: #D8D8D8 !important;
+.static-map {
+	width: 100%;
+	height: auto;
+	background-color: #D8D8D8 !important;
 	margin-bottom: 40px;
- }
-
- .map-header{
-	 text-align: center;
- }
-
-.page-scroll{
-	transition:
-			trani;
 }
 
-.filler-image{
+.map-header {
+	text-align: center;
+}
+
+.page-scroll {
+	transition: trani;
+}
+
+.filler-image {
 	float: left;
 	width: 50%;
 	height: auto;
 }
-.map{
+
+.map {
 	align-content: center;
 	width: 40%;
 	background-color: black;
@@ -117,35 +116,43 @@ header {
 	padding-right: 10%;
 }
 
-
-.gallery{
+.gallery {
 	padding-left: 10px;
 }
 
- #map{
-	 height: 500px;
-	 width: auto;
- }
+#map {
+	height: 500px;
+	width: auto;
+}
 
-.follow-links{
+.follow-links {
 	width: 50%;
 }
 
-.navbar-fixed-bottom{
-	font-size: 60px;
+.navbar-fixed-bottom {
+	font-size: 40px;
 	align-content: flex-end;
-	background-color: gray;
-	opacity: .5;
+	background-color: white;
+	opacity: .75;
 	text-align: center;
-	padding-top: 10px;
+	margin-top: 10px;
 
 }
 
-.contact-us{
+.contact-section {
+	background-color: gray;
+
+}
+
+.contact-us {
 	padding-bottom: 10px;
 	margin-bottom: 90px;
 }
 
-.g-recaptcha{
-
+.g-recaptcha {
+	alignment-baseline: center;
+	margin-bottom: 20px;
 }
+
+/*Youtube cover attempt insert */
+
