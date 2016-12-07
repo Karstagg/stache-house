@@ -224,7 +224,7 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3><h4>Hours:
-							Tuesday-Saturday 9:30am-7:30pm</h4></div>
+							Open 7 days a week 9:30am-7:30pm</h4></div>
 					<div id="map"></div>
 					<script>
 						function initMap() {
