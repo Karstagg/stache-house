@@ -13,12 +13,13 @@ hr {
 	max-height: 3px;
 }
 
+
 header {
 	position: static;
 	width: auto;
 	text-align: center;
 	color: white;
-	background-image: url(../media/backgrounds/mural.jpg);
+	background-image: url(../media/backgrounds/background-dimmer.png);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;

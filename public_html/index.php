@@ -104,14 +104,14 @@
 
 		<!--		Start Header-->
 		<header>
-			<div class=" container-fluid header-full text-center" id="about">
+			<div class="container-fluid header-full text-center" id="about">
 				<div class="header-top text-center">
 					<h1>The Stache House</h1>
 					<hr>
 					<h3>Albuquerque's premier barber lounge</h3>
 				</div>
 				<a class="page-scroll" href="#barbers">
-				<button class="btn btn-primary btn-lg" type="submit">Schedule an appointment</button>
+					<button class="btn btn-primary btn-lg" type="submit">Schedule an appointment</button>
 				</a>
 			</div>
 		</header>
@@ -158,34 +158,34 @@
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.thatdirtybarber47.genbook.com>
-					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-					<div class="caption">
-						<h3>Stev</h3>
-						<a href=https://www.instagram.com/thatdirtybarber/>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@thatdirtybarber</p>
-					</div>
+						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<div class="caption">
+							<h3>Stev</h3>
+							<a href=https://www.instagram.com/thatdirtybarber/>
+								<p><i class="fa fa-instagram" aria-hidden="true"></i>@thatdirtybarber</p>
+						</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.mj-at-stache.genbook.com>
-					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-					<div class="caption">
-						<h3>Jesus</h3>
+						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<div class="caption">
+							<h3>Jesus</h3>
 							<a href=http://www.mj-at-stache.genbook.com>
 								<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram4</p>
-					</div>
+						</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
 					<a href=http://www.barbermillz.genbook.com>
-					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-					<div class="caption">
-						<h3>Millz</h3>
-						<a href=https://www.instagram.com/millzzz_12/>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@millzzz_12</p>
-					</div>
+						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<div class="caption">
+							<h3>Millz</h3>
+							<a href=https://www.instagram.com/millzzz_12/>
+								<p><i class="fa fa-instagram" aria-hidden="true"></i>@millzzz_12</p>
+						</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
