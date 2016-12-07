@@ -59,6 +59,8 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
+		<!--Bootstrap Iamge Gallery-->
+
 		<!-- add CSS file -->
 		<link href="../public_html/lib/stache-stylesheet.css" rel="stylesheet" type="text/css"/>
 
@@ -125,8 +127,7 @@
 				<div class="col-lg-8 col-lg-offset-2 text-center">
 					<h2 class="section-heading">Meet Our Barbers!</h2>
 					<hr class="light">
-					<p class="text-faded">All of our barbers are professionally trained and have a combined xx years of
-						experience. Select your barber's picture to schedule your next appointment with them!</p>
+					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm Tuesday-Saturday. Walk-ins also available with Z-Row</p>
 				</div>
 			</div>
 			<div>
@@ -208,6 +209,7 @@
 			<div class="header-text">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="row">
+
 					</div>
 				</div>
 			</div>
@@ -315,6 +317,7 @@
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
+
 	</body>
 </html>
 
