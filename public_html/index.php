@@ -127,7 +127,9 @@
 				<div class="col-lg-8 col-lg-offset-2 text-center">
 					<h2 class="section-heading">Meet Our Barbers!</h2>
 					<hr class="light">
-					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm Tuesday-Saturday. Walk-ins also available with Z-Row</p>
+					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's
+						picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm
+						Tuesday-Saturday. Walk-ins also available with Z-Row</p>
 				</div>
 			</div>
 			<div>
@@ -221,7 +223,8 @@
 		<div class="container-fluid contact-section" id="contact-us">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3><h4>Hours: Tuesday-Saturday 9:30am-7:30pm</h4></div>
+					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3><h4>Hours:
+							Tuesday-Saturday 9:30am-7:30pm</h4></div>
 					<div id="map"></div>
 					<script>
 						function initMap() {

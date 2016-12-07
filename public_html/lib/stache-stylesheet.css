@@ -14,26 +14,27 @@ hr {
 }
 
 
-header {
-	position: static;
-	width: auto;
-	text-align: center;
-	color: white;
-	background-image: url(../media/backgrounds/background-dimmer.png);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	/* The image used */
 
-	/* Set a specific height */
-	height: 500px;
+	header {
+		position: static;
+		width: auto;
+		text-align: center;
+		color: white;
+		background-image: url(../media/backgrounds/background-dimmer.png);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		/* The image used */
 
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-}
+		/* Set a specific height */
+		height: 500px;
+
+		/* Create the parallax scrolling effect */
+		/*background-attachment: fixed;*/
+		/*background-position: center center;*/
+		/*background-repeat: no-repeat;*/
+	}
 
 .header-top {
 	padding-top: 150px;
@@ -69,19 +70,21 @@ header {
 	font-size: 30px;
 }
 
-.wide-image {
-	position: relative;
-	width: auto;
-	text-align: center;
-	color: #D8D8D8;
-	background-image: url(../media/backgrounds/bam-cover.jpg);
-	background-position: center center;
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
+
+	.wide-image {
+		position: relative;
+		width: auto;
+		text-align: center;
+		color: #D8D8D8;
+		background-image: url(../media/backgrounds/bam-cover.jpg);
+		background-position: center center;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	}
+
 
 /*wallpaper dimmer*/
 .dimmed {
@@ -100,13 +103,10 @@ header {
 	background: rgba(0, 0, 0, 0.5);
 }
 
-
 .thumbnail {
 	box-sizing: content-box;
 	background-color: #D8D8D8;
 }
-
-
 
 .static-map {
 	width: 100%;
