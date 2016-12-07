@@ -110,7 +110,9 @@
 					<hr>
 					<h3>Albuquerque's premier barber lounge</h3>
 				</div>
+				<a class="page-scroll" href="#barbers">
 				<button class="btn btn-primary btn-lg" type="submit">Schedule an appointment</button>
+				</a>
 			</div>
 		</header>
 
@@ -133,7 +135,7 @@
 						<a href=https://www.genbook.com/bookings/slot/reservation/30247019><img
 								src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 							<div class="caption">
-								<h3>Barber Bam</h3>
+								<h3>Bam</h3>
 						</a>
 						<a href="https://www.instagram.com/great_bam_bino/"><p><i class="fa fa-instagram"
 																									 aria-hidden="true"></i>@great_bam_bino</p>
@@ -143,42 +145,46 @@
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
+					<a href=http://www.yb-cuts.genbook.com>
+						<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
+						<div class="caption">
+							<h3>YB Cuts</h3>
+					</a>
+					<a href="https://www.instagram.com/yb_cuts/"><p><i class="fa fa-instagram" aria-hidden="true"></i>@yb_cuts
+						</p>
+				</div>
+			</div>
+			</div>
+			<div class="col-sm-4 col-md-4 text-center">
+				<div class="thumbnail btn-link">
+					<a href=http://www.thatdirtybarber47.genbook.com>
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
-						<a href=http://www.facebook.com>
-							<h3>Barber #2</h3>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram2</p>
+						<h3>Stev</h3>
+						<a href=https://www.instagram.com/thatdirtybarber/>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@thatdirtybarber</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
+					<a href=http://www.mj-at-stache.genbook.com>
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
-						<a href=http://www.facebook.com>
-							<h3>Barber #3</h3>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@instagram3</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-md-4 text-center">
-				<div class="thumbnail btn-link">
-					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
-					<div class="caption">
-						<a href=http://www.facebook.com>
-							<a href=http://www.facebook.com>
-								<h3>Barber#4</h3>
+						<h3>Jesus</h3>
+							<a href=http://www.mj-at-stache.genbook.com>
 								<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram4</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
+					<a href=http://www.barbermillz.genbook.com>
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
-						<a href=http://www.facebook.com>
-							<h3>Barber #5</h3>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram5</p>
+						<h3>Millz</h3>
+						<a href=https://www.instagram.com/millzzz_12/>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@millzzz_12</p>
 					</div>
 				</div>
 			</div>
@@ -186,9 +192,9 @@
 				<div class="thumbnail btn-link">
 					<img src="../public_html/media/image-alignment-300x200.jpg" alt="...">
 					<div class="caption">
-						<a href=http://www.facebook.com>
-							<h3>Barber #6</h3>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@Instagram6</p></a>
+						<h3>Erv Gotti</h3>
+						<a href=https://www.instagram.com/brad_barber_erv/>
+							<p><i class="fa fa-instagram" aria-hidden="true"></i>@brad_barber_erv</p></a>
 					</div>
 				</div>
 			</div>
@@ -197,16 +203,16 @@
 		<!--		Mid-point image carousel credit Mohamed Tahhan via bootsnipp.com-->
 		<!--Attempt at youtube cover insert-->
 
-				<!--		Wide Image cover--->
-				<header class="wide-image" id="follow-us">
-					<div class="header-text">
-						<div class="col-lg-8 col-lg-offset-2">
-							<div class="row">
-							</div>
-						</div>
+		<!--		Wide Image cover--->
+		<header class="wide-image" id="follow-us">
+			<div class="header-text">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="row">
 					</div>
+				</div>
+			</div>
 
-				</header>
+		</header>
 
 		<!--		Insert Google Maps API/Contact Form-->
 		<div class="container-fluid contact-section" id="contact-us">
