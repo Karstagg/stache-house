@@ -74,6 +74,7 @@ hr {
 	.wide-image {
 		position: relative;
 		width: auto;
+		height: 540px;
 		text-align: center;
 		color: #D8D8D8;
 		background-image: url(../media/backgrounds/bam-cover.jpg);
