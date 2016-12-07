@@ -210,6 +210,7 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="row">
 
+
 					</div>
 				</div>
 			</div>
@@ -220,7 +221,7 @@
 		<div class="container-fluid contact-section" id="contact-us">
 			<div class="row">
 				<div class="col-lg-6">
-					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3></div>
+					<div class="sub-header text-center"><h3>713 Central Ave NE. Albuquerque, NM 87102</h3><h4>Hours: Tuesday-Saturday 9:30am-7:30pm</h4></div>
 					<div id="map"></div>
 					<script>
 						function initMap() {

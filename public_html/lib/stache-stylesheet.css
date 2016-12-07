@@ -31,7 +31,7 @@ header {
 
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center center;
 	background-repeat: no-repeat;
 }
 
@@ -74,8 +74,9 @@ header {
 	width: auto;
 	text-align: center;
 	color: #D8D8D8;
-	background-image: url(../media/backgrounds/front-of-shop.jpg);
-	background-position: center;
+	background-image: url(../media/backgrounds/bam-cover.jpg);
+	background-position: center center;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
