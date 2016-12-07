@@ -129,7 +129,7 @@
 					<hr class="light">
 					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's
 						picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm
-						Tuesday-Saturday. Walk-ins also available with Z-Row</p>
+						Tuesday-Saturday. Walk-ins also available with Z-Ro</p>
 				</div>
 			</div>
 			<div>
