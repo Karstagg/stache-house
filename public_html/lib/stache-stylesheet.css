@@ -16,7 +16,6 @@ hr {
 
 @media (min-width: 750px) {
 
-
 	header {
 		position: static;
 		width: auto;
@@ -38,49 +37,64 @@ hr {
 		/*background-repeat: no-repeat;*/
 	}
 
-}
-.header-top {
-	padding-top: 150px;
-	text-align: center;
-}
+	header {
+		position: static;
+		width: auto;
+		text-align: center;
+		color: white;
+		background-image: url(../media/backgrounds/background-dimmer.png);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		/* The image used */
 
-.header-text {
-	position: static;
-	width: 100%;
-	padding: 100px 15px;
-	text-align: center;
-}
+		/* Set a specific height */
+		height: 500px;
+	}
 
-.btn-primary {
-	position: static;
-	width: auto;
-	margin-bottom: 20px;
+	.header-top {
+		padding-top: 150px;
+		text-align: center;
+	}
 
-}
+	.header-text {
+		position: static;
+		width: 100%;
+		padding: 100px 15px;
+		text-align: center;
+	}
 
-.barber-links {
-	align-content: center;
-	width: auto;
-	color: #D8D8D8;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: black;
-}
+	.btn-primary {
+		position: static;
+		width: auto;
+		margin-bottom: 20px;
 
-.text-faded {
-	color: white;
-	opacity: 0.666666;
-	font-size: 30px;
-}
+	}
 
+	.barber-links {
+		align-content: center;
+		width: auto;
+		color: #D8D8D8;
+		padding-left: 10%;
+		padding-right: 10%;
+		background-color: black;
+		padding-bottom: 30px;
+	}
+
+	.text-faded {
+		color: white;
+		opacity: 0.666666;
+		font-size: 30px;
+	}
 
 	.wide-image {
 		position: relative;
 		width: auto;
-		height: 540px;
+		height: 750px;
 		text-align: center;
 		color: #D8D8D8;
-		background-image: url(../media/backgrounds/bam-cover.jpg);
+		background-image: url(../media/stache-collage.jpg);
 		background-position: center center;
 		background-attachment: fixed;
 		-webkit-background-size: cover;
@@ -89,96 +103,266 @@ hr {
 		-o-background-size: cover;
 	}
 
+	/*wallpaper dimmer*/
+	.dimmed {
+		position: relative;
+	}
 
-/*wallpaper dimmer*/
-.dimmed {
-	position: relative;
+	.dimmed:after {
+		content: " ";
+		z-index: 10;
+		display: block;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.thumbnail {
+		box-sizing: content-box;
+		background-color: #D8D8D8;
+	}
+
+	.static-map {
+		width: 100%;
+		height: auto;
+		background-color: #D8D8D8 !important;
+		margin-bottom: 40px;
+	}
+
+	.map-header {
+		text-align: center;
+	}
+
+	.page-scroll {
+		transition: trani;
+	}
+
+	.filler-image {
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+
+	.map {
+		align-content: center;
+		width: 40%;
+		background-color: black;
+		color: #D8D8D8;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.gallery {
+		padding-left: 10px;
+	}
+
+	#map {
+		height: 500px;
+		width: auto;
+	}
+
+	.follow-links {
+		width: 50%;
+	}
+
+	.navbar-fixed-bottom {
+		font-size: 40px;
+		align-content: flex-end;
+		background-color: white;
+		opacity: .75;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	.contact-section {
+		background-color: gray;
+
+	}
+
+	.contact-us {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		margin-bottom: 90px;
+	}
+
+	.g-recaptcha {
+		alignment-baseline: center;
+		margin-bottom: 20px;
+	}
+
+}
+/*////////////////*/
+/*mobile CSS*/
+/*////////////////*/
+
+@media (max-width: 750px) {
+
+
+
+	header {
+		position: static;
+		width: auto;
+		height: auto;
+		text-align: center;
+		color: white;
+		background-image: url(../media/backgrounds/dimmer-bg-mobile.png);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		background-position: center;
+
+		/* The image used */
+
+		/* Set a specific height */
+		height: 500px;
+	}
+
+	.header-top {
+		padding-top: 150px;
+		text-align: center;
+	}
+
+	.header-text {
+		position: static;
+		width: 100%;
+		padding: 100px 15px;
+		text-align: center;
+	}
+
+	.btn-primary {
+		position: static;
+		width: auto;
+		margin-bottom: 20px;
+
+	}
+
+	.barber-links {
+		align-content: center;
+		width: auto;
+		color: #D8D8D8;
+		padding-left: 10%;
+		padding-right: 10%;
+		background-color: black;
+		padding-bottom: 30px;
+	}
+
+	.text-faded {
+		color: white;
+		opacity: 0.666666;
+		font-size: 30px;
+	}
+
+	.wide-image {
+		position: static;
+		width: auto;
+		height: 69%;
+		color: #D8D8D8;
+		background-repeat: no-repeat;
+		background-image: url(../media/stache-mobile-collage.jpg);
+		background-size: 100%;
+		background-position: center;
+		/*background-attachment: fixed;*/
+
+
+	}
+
+	/*wallpaper dimmer*/
+	.dimmed {
+		position: relative;
+	}
+
+	.dimmed:after {
+		content: " ";
+		z-index: 10;
+		display: block;
+		position: absolute;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.thumbnail {
+		box-sizing: content-box;
+		background-color: #D8D8D8;
+	}
+
+	.static-map {
+		width: 100%;
+		height: auto;
+		background-color: #D8D8D8 !important;
+		margin-bottom: 40px;
+	}
+
+	.map-header {
+		text-align: center;
+	}
+
+	.page-scroll {
+		transition: trani;
+	}
+
+	.filler-image {
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+
+	.map {
+		align-content: center;
+		width: 40%;
+		background-color: black;
+		color: #D8D8D8;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.gallery {
+		padding-left: 10px;
+	}
+
+	#map {
+		height: 500px;
+		width: auto;
+	}
+
+	.follow-links {
+		width: 50%;
+	}
+
+	.navbar-fixed-bottom {
+		font-size: 40px;
+		align-content: flex-end;
+		background-color: white;
+		opacity: .75;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	.contact-section {
+		background-color: gray;
+
+	}
+
+	.contact-us {
+		padding-top: 30px;
+		padding-bottom: 10px;
+		margin-bottom: 90px;
+	}
+
+	.g-recaptcha {
+		alignment-baseline: center;
+		margin-bottom: 20px;
+	}
+
 }
 
-.dimmed:after {
-	content: " ";
-	z-index: 10;
-	display: block;
-	position: absolute;
-	height: 100%;
-	top: 0;
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.5);
-}
 
-.thumbnail {
-	box-sizing: content-box;
-	background-color: #D8D8D8;
-}
-
-.static-map {
-	width: 100%;
-	height: auto;
-	background-color: #D8D8D8 !important;
-	margin-bottom: 40px;
-}
-
-.map-header {
-	text-align: center;
-}
-
-.page-scroll {
-	transition: trani;
-}
-
-.filler-image {
-	float: left;
-	width: 50%;
-	height: auto;
-}
-
-.map {
-	align-content: center;
-	width: 40%;
-	background-color: black;
-	color: #D8D8D8;
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
-.gallery {
-	padding-left: 10px;
-}
-
-#map {
-	height: 500px;
-	width: auto;
-}
-
-.follow-links {
-	width: 50%;
-}
-
-.navbar-fixed-bottom {
-	font-size: 40px;
-	align-content: flex-end;
-	background-color: white;
-	opacity: .75;
-	text-align: center;
-	margin-top: 10px;
-
-}
-
-.contact-section {
-	background-color: gray;
-
-}
-
-.contact-us {
-	padding-bottom: 10px;
-	margin-bottom: 90px;
-}
-
-.g-recaptcha {
-	alignment-baseline: center;
-	margin-bottom: 20px;
-}
-
-/*Youtube cover attempt insert */
 

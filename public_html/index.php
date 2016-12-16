@@ -60,9 +60,13 @@
 				  crossorigin="anonymous"></script>
 
 		<!--Bootstrap Iamge Gallery-->
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 
-		<!-- add CSS file -->
+		<!-- add CSS files -->
 		<link href="../public_html/lib/stache-stylesheet.css" rel="stylesheet" type="text/css"/>
+
 
 		<script src="lib/scroll.js" type="application/javascript" rel="script"></script>
 	</head>
@@ -129,9 +133,10 @@
 					<hr class="light">
 					<p class="text-faded">All of our barbers are professionally trained and licensed. Select your barber's
 						picture to schedule your next appointment with them! Visit us any time between 9:30am and 7:30pm
-						Tuesday-Saturday. Walk-ins also available with Z-Ro  <a href="https://www.instagram.com/thereal_high_fi/"><i class="fa fa-instagram"
-																																										 aria-hidden="true"></i>@thereal_high_fi
-					</a></p>
+						Tuesday-Saturday. Walk-ins also available with Z-Ro <a
+							href="https://www.instagram.com/thereal_high_fi/"><i class="fa fa-instagram"
+																								  aria-hidden="true"></i>@thereal_high_fi
+						</a></p>
 				</div>
 			</div>
 			<div>
@@ -190,17 +195,20 @@
 							<h3>Millz</h3>
 							<a href=https://www.instagram.com/millzzz_12/>
 								<p><i class="fa fa-instagram" aria-hidden="true"></i>@millzzz_12</p>
+							</a>
 						</div>
 				</div>
 			</div>
 			<div class="col-sm-4 col-md-4 text-center">
 				<div class="thumbnail btn-link">
-					<img src="media/prof/gotti-prof.jpg" alt="...">
-					<div class="caption">
-						<h3>Erv Gotti</h3>
-						<a href=https://www.instagram.com/brad_barber_erv/>
-							<p><i class="fa fa-instagram" aria-hidden="true"></i>@brad_barber_erv</p></a>
-					</div>
+					<a href=https://www.barbererv-cuts.genbook.com>
+						<img src="media/prof/gotti-prof.jpg" alt="...">
+						<div class="caption">
+							<h3>Erv Gotti</h3>
+							<a href=https://www.instagram.com/brad_barber_erv/>
+								<p><i class="fa fa-instagram" aria-hidden="true"></i>@brad_barber_erv</p>
+							</a>
+						</div>
 				</div>
 			</div>
 		</section>
@@ -210,14 +218,15 @@
 
 		<!--		Wide Image cover--->
 		<header class="wide-image" id="follow-us">
-			<div class="header-text">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="row">
+<!--			<div class="header-text">-->
+<!--				<div class="col-lg-8 col-lg-offset-2">-->
+<!--					<div class="row">-->
+<!---->
+<!---->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</div>-->
 
-
-					</div>
-				</div>
-			</div>
 
 		</header>
 
